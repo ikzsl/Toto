@@ -1,5 +1,7 @@
 .todo-list-item {
     font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .todo-list-item button{
