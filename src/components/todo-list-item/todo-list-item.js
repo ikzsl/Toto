@@ -3,7 +3,7 @@ import './todo-list-item.css';
 
 export default class TodoListItem extends Component {
 
-     
+
 
     state = {
         done: false,
@@ -51,7 +51,7 @@ export default class TodoListItem extends Component {
                         type='button'
                         onClick={onDeleted}
                         className='btn btn-outline-success btn-sm fa'>
-                        <i className='fa fa-trash-o' />
+                        <i className='fa fa-trash-o' style={{color: "red"}} />
                     </button>
                 </span>
             </span >
