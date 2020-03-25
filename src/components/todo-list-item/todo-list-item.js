@@ -3,47 +3,30 @@ import './todo-list-item.css';
 
 export default class TodoListItem extends Component {
 
-
-
-    state = {
-        done: false,
-        important: false,
-    };
-
-    onLabelClick = () => {
-        this.setState(({ done }) => {
-            return {
-                done: !done,
-            }
-        });
-    };
-
-    onImportantClick = () => {
-        this.setState(({ important }) => {
-            return {
-                important: !important,
-            }
-        });
-    };
-
     render() {
-        const { label, onDeleted } = this.props;
-        const { done, important } = this.state;
+        const {
+            label,
+            onDeleted,
+            onToggleImportant,
+            onToggleDone,
+            isDone,
+            isImportant
+        } = this.props;
 
-        let classNameDone = done ? 'done' : null;
-        let classNameImportant = important ? 'important' : null;
+        let classNameDone = isDone ? 'done' : null;
+        let classNameImportant = isImportant ? 'important' : null;
 
         return (
             <span className={`todo-list-item ${classNameDone} ${classNameImportant}`}>
                 <span
                     className='todo-list-item-label'
-                    onClick={this.onLabelClick}>
+                    onClick={onToggleDone}>
                     {label}
                 </span>
                 <span>
                     <button
                         type='button'
-                        onClick={this.onImportantClick}
+                        onClick={onToggleImportant}
                         className='btn btn-outline-success btn-sm float-right '>
                         <i className='fa fa-exclamation' />
                     </button>
@@ -51,7 +34,7 @@ export default class TodoListItem extends Component {
                         type='button'
                         onClick={onDeleted}
                         className='btn btn-outline-success btn-sm fa'>
-                        <i className='fa fa-trash-o' style={{color: "red"}} />
+                        <i className='fa fa-trash-o' style={{ color: "red" }} />
                     </button>
                 </span>
             </span >
