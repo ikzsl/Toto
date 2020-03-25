@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Toto/static/css/main.66407368.chunk.css",
-    "main.js": "/Toto/static/js/main.1396cd2a.chunk.js",
-    "main.js.map": "/Toto/static/js/main.1396cd2a.chunk.js.map",
+    "main.js": "/Toto/static/js/main.47e7c003.chunk.js",
+    "main.js.map": "/Toto/static/js/main.47e7c003.chunk.js.map",
     "runtime-main.js": "/Toto/static/js/runtime-main.9bee40eb.js",
     "runtime-main.js.map": "/Toto/static/js/runtime-main.9bee40eb.js.map",
-    "static/js/2.b7dad204.chunk.js": "/Toto/static/js/2.b7dad204.chunk.js",
-    "static/js/2.b7dad204.chunk.js.map": "/Toto/static/js/2.b7dad204.chunk.js.map",
+    "static/js/2.2ab5c63f.chunk.js": "/Toto/static/js/2.2ab5c63f.chunk.js",
+    "static/js/2.2ab5c63f.chunk.js.map": "/Toto/static/js/2.2ab5c63f.chunk.js.map",
     "index.html": "/Toto/index.html",
-    "precache-manifest.60ca0b4da729881f65dc4f61cfa666ff.js": "/Toto/precache-manifest.60ca0b4da729881f65dc4f61cfa666ff.js",
+    "precache-manifest.24caa107b2405196f9802913c1ce4cfd.js": "/Toto/precache-manifest.24caa107b2405196f9802913c1ce4cfd.js",
     "service-worker.js": "/Toto/service-worker.js",
     "static/css/main.66407368.chunk.css.map": "/Toto/static/css/main.66407368.chunk.css.map",
-    "static/js/2.b7dad204.chunk.js.LICENSE.txt": "/Toto/static/js/2.b7dad204.chunk.js.LICENSE.txt"
+    "static/js/2.2ab5c63f.chunk.js.LICENSE.txt": "/Toto/static/js/2.2ab5c63f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9bee40eb.js",
-    "static/js/2.b7dad204.chunk.js",
+    "static/js/2.2ab5c63f.chunk.js",
     "static/css/main.66407368.chunk.css",
-    "static/js/main.1396cd2a.chunk.js"
+    "static/js/main.47e7c003.chunk.js"
   ]
 }
