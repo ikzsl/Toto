@@ -10,14 +10,12 @@ export default class ItemAddForm extends Component {
 
     onLabelChange = (e) => {
         e.preventDefault();
-
         this.setState({
             label: e.target.value,
         })
     };
 
     onSubmit = (e) => {
-
         e.preventDefault();
         if(!this.state.label) {
             return;
@@ -26,13 +24,9 @@ export default class ItemAddForm extends Component {
         this.setState({
             label: "",
         });
-
-        console.log(e.target)
     };
 
     render() {
-        const {onAdd} = this.props;
-        const {label} = this.state;
         return (
             <form className="item-add-form d-flex"
                   onSubmit={this.onSubmit}>
